@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css"  rel="stylesheet" />
+</head>
+<style>
+    .custom-gradient {
+    background: linear-gradient(135deg, rgb(26, 26, 46), rgb(22, 33, 62));
+}
+
+</style>
+<body class="bg-gray-900 text-white">
+    <nav class="bg-gray-900 text-white p-2 fixed w-full top-0 z-10 shadow-lg">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <a href="#" class="text-xl font-bold">
+                <span class="text-gray-500">Andre</span> <span class="text-blue-500">Eka</span> <span class="text-gray-500">Ferdianysah</span>
+            </a>
+            <div class="hidden md:flex space-x-6 items-center">
+                <a href="#home" class="hover:text-gray-300">HOME</a>
+                <a href="#about" class="hover:text-gray-300">ABOUT</a>
+                <a href="#skills" class="hover:text-gray-300">SKILLS</a>
+                <a href="#projects" class="hover:text-gray-300">PROJECTS</a>
+            </div>
+            <div>
+                <a href="#contact" class="bg-purple-600 hover:bg-red-600 text-white font-semibold py-2 px-4 rounded-full">
+                    CONTACT ME
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class=" flex flex-col justify-center items-center">
+        <!-- Sidebar Media Sosial -->
+        <div class="fixed left-4 top-1/2 transform -translate-y-1/2 space-y-4">
+            <a href="https://www.instagram.com/ferdiekaandre/#" target="_blank" class="block text-gray-400 hover:text-teal-400 transition">
+                <i class="fab fa-instagram text-2xl"></i>
+            </a>            
+            <a href="https://www.linkedin.com/in/andre-eka-ferdiansyah-8a9aa1336/" target="_blank" class="block text-gray-400 hover:text-teal-400 transition">
+                <i class="fab fa-linkedin text-2xl"></i>
+            </a>
+            <a href="https://github.com/ReEkaF" target="_blank" class="block text-gray-400 hover:text-teal-400 transition">
+                <i class="fab fa-github text-2xl"></i>
+            </a>
+        </div>
+    </div>
+        <!-- Developer Section -->
+    <h2 class="text-5xl py-12 mt-12 font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600 mb-4 text-center sm:text-left">SOFTWARE ENGINEER</h2>
+        <div class="bg-gray-900 text-white py-16 px-6" id="home">
+            <div class="max-w-7xl mx-auto grid grid-cols-12 gap-8 items-start">
+                <!-- Profile Card -->
+                <div class="bg-gray-800 p-8 shadow-lg col-span-12 lg:col-span-4 xl:col-span-3 items-center" 
+                style="border-top-left-radius: 7rem; border-bottom-right-radius: 7rem; 
+                    box-shadow: -4px 0px 10px rgba(0, 0, 255, 0.5), 0px -4px 10px rgba(0, 0, 255, 0.5), 4px 0px 10px rgba(0, 0, 255, 0.5);">
+                    <div class="w-24 h-24 bg-gray-700 rounded-full flex items-center justify-center mb-4">
+                    <img src="images/tum.jpg" alt="Profile Image" class="w-full h-full rounded-full object-cover">
+                    </div>
+                    <h3 class="text-xl font-bold">Andre Eka Ferdiansyah</h3>
+                    <p class="text-teal-400 mb-4">software engineer</p>
+                    <div class="space-y-4 ">
+                        <div class="flex items-center text-left space-x-2">
+                            <i class="fa-solid fa-envelope text-teal-400"></i>
+                            <span class="text-gray-400 text-sm">andreeka852@gmail.com</span>
+                        </div>
+                        <div class="flex items-center text-left space-x-2">
+                            <i class="fa-solid fa-location-dot text-teal-400"></i>
+                            <span class="text-gray-400 text-sm">Tuban, Indonesia</span>
+                        </div>
+                        <div class="flex items-center text-left space-x-2">
+                            <i class="fa-solid fa-school text-teal-400"></i>
+                            <span class="text-gray-400 text-sm">Student at Universitas Trunojoyo Madura</span>
+                        </div>
+                    </div>          
+            <!-- Social Media Icons -->
+                <div class="flex space-x-4 mt-4">
+                    <a href="#" class="text-teal-400 hover:text-teal-600"><i class="fab fa-twitter text-xl"></i></a>
+                    <a href="#" class="text-teal-400 hover:text-teal-600"><i class="fab fa-linkedin text-xl"></i></a>
+                    <a href="#" class="text-teal-400 hover:text-teal-600"><i class="fab fa-github text-xl"></i></a>
+                </div>
+            <!-- Download CV Button -->
+            <a href="cv.pdf" download class="mt-6 inline-block px-6 py-2 bg-teal-500 text-white font-semibold rounded-full hover:bg-teal-600 transition">
+                Download CV
+            </a>
+            
+        </div>
+        
+        <!-- Introduction Text -->
+        <div class="col-span-12 lg:col-span-4 xl:col-span-6 items-center text-center mt-6">
+            
+            <div>
+                <p class="text-4xl text-gray-300">Hey</p>
+                <h1 class="text-4xl font-bold">I'm <span class="text-teal-400">Andre Eka Ferdiansyah</span>,</h1>
+                <h2 class="text-3xl font-semibold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600">Software Enginer</h2>
+                <p class="text-gray-400 max-w-lg mx-auto mb-4">
+                    I help businesses grow by crafting amazing web experiences. If you’re looking for a developer that gets things done, let's connect!
+                </p>
+                <a href="#contact" class="mt-4 inline-block px-6 py-3 font-semibold text-lg text-white rounded-full shadow-lg bg-gradient-to-r from-blue-400 to-purple-600 hover:from-blue-500 hover:to-purple-700 transition-all">
+                    Let's Talk <i class="fas fa-arrow-right ml-1"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- Quick Stats (Vertical Alignment) -->
+        <div class="col-span-12 lg:col-span-4 xl:col-span-3 space-y-6 bg-gray-800 rounded-lg shadow-lg p-2 " style="border-bottom-left-radius: 5rem; border-top-right-radius: 5rem;
+        box-shadow: -4px 0px 10px #9333EA, 0px -4px 10px #9333EA, 4px 0px 10px #9333EA;">
+            <div class="p-6 text-left">
+                <span class="text-4xl font-bold text-teal-400 text-blue-600">2+</span>
+                <span class="text-white"> years experience in business</span>
+            </div>
+            <div class="p-6 text-left">
+                <span class="text-4xl font-bold text-teal-400 text-blue-600">2+</span>
+                <span class="text-white"> Clients</span>
+            </div>
+            <div class="p-6 text-left">
+                <span class="text-4xl font-bold text-teal-400 text-blue-600">2+</span>
+                <span class="text-white"> Usable Project Done</span>
+            </div>
+            <div class="p-6 text-left">
+                <span class="text-4xl font-bold text-teal-400 text-blue-600">5+</span>
+                <span class="text-white"> Programming Languages</span>
+            </div>
+        </div>
+</div>
+
+        <!-- About Me Section -->
+<!-- About Me Section with Heading Above Card -->
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-16">
+        <!-- Heading for About Me Section -->
+        <div class="inline-block px-4 py-2 border-4 border-purple-400 text-white bg-gray-800 text-2xl font-semibold rounded-br-lg rounded-tl-lg mb-6" 
+        style="box-shadow: 0 0 0 4px #a855f7;">
+        About Me
+    </div>
+
+
+    
+    <!-- About Me Card -->
+    <div id="about" class="flex flex-col md:flex-row items-center rounded-lg shadow-lg mb-8 "  >
+        <div class="w-full md:w-1/2 bg-gray-800 bg-opacity-80 p-6 rounded-2xl shadow-lg">
+            <h3 class="text-teal-400 text-3xl font-bold mb-4">Hello!</h3>
+            <p class="text-lg">
+                My name is <span class="text-teal-400">Andre Eka Ferdiansyah</span> and I specialize in web development, utilizing <span class="text-red-400">LARAVEL</span>, <span class="text-blue-400">TAILWIND</span>, <span class="text-yellow-500">JS</span>, and <span class="text-green-400">MYSQL</span>.
+            </p>
+            <p class="mt-4 text-gray-300">
+                I am a highly motivated individual and eternal optimist dedicated to writing clean, concise, robust code that works. Striving to never stop learning and improving.
+            </p>
+            <p class="mt-4 text-gray-300">
+                When I'm not coding, I enjoy wondering, reading, or help handle my <span class="text-teal-400">business</span>.
+            </p>
+            <p class="mt-4 text-gray-300">
+                I like to have my perspective and belief systems challenged so that I see the world through new eyes.
+            </p>
+        </div>
+        <div class="w-full md:w-1/2 flex justify-center mt-8 md:mt-0">
+            <img src="images/pp_cv.jpg" alt="About Me Image" class="rounded-lg shadow-lg max-w-xs">
+        </div>
+    </div>
+</div>
+
+    <!-- My Skills Section -->
+<div class="bg-gradient-to-br from-gray-900 to-blue-900 text-gray-900 py-16 px-6 rounded-lg" id="skills">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-start gap-8">
+        <!-- Left Section: Introduction and Button -->
+        <div class="w-full md:w-1/2 space-y-4">
+            <span class="inline-block bg-green-100 text-green-600 px-3 py-1 rounded-full text-sm font-semibold">
+                My Skills
+            </span>
+            <h2 class="text-4xl font-bold leading-tight text-white">
+                Why Hire Me For Your <span class="text-green-400">Next Project?</span>
+            </h2>
+            <p class="text-lg text-white">
+                I'm a specialist in Web Development. My passion is designing & solving problems through user experience and research.
+            </p>
+            <button class="mt-6 px-6 py-3 bg-gradient-to-r from-green-400 to-green-600 text-white font-semibold rounded-full hover:bg-green-600 transition">
+                Hire Me
+            </button>
+        </div>
+
+        <!-- Right Section: Skills Cards -->
+        <div class="w-full md:w-1/2 grid grid-cols-1 gap-6 sm:grid-cols-2">
+            <!-- Skill Card 1 -->
+            <div class="bg-gradient-to-r from-gray-100 to-gray-300  p-6 rounded-lg shadow hover:shadow-lg transition ">
+                <div class="text-green-600 text-2xl mb-2">
+                    <i class="fas fa-gem"></i>
+                </div>
+                <h3 class="text-xl font-semibold ">Visual Design</h3>
+                <p class="text-gray-600 mt-2">Create user interface design with unique & modern ideas.</p>
+            </div>
+            
+            <!-- Skill Card 2 -->
+            <div class="bg-gradient-to-r from-gray-100 to-gray-300 p-6 rounded-lg shadow hover:shadow-lg transition">
+                <div class="text-green-600 text-2xl mb-2">
+                    <i class="fas fa-search"></i>
+                </div>
+                <h3 class="text-xl font-semibold">Hunger of Knowledge</h3>
+                <p class="text-gray-600 mt-2">I am always eager to explore new concepts and technologies</p>
+            </div>
+            
+            <!-- Skill Card 3 -->
+            <div class="bg-gradient-to-r from-gray-100 to-gray-300 p-6 rounded-lg shadow hover:shadow-lg transition">
+                <div class="text-green-600 text-2xl mb-2">
+                    <i class="fas fa-cogs"></i>
+                </div>
+                <h3 class="text-xl font-semibold">Design Prototype</h3>
+                <p class="text-gray-600 mt-2">Can Design and Create complex web systems.</p>
+            </div>
+            <div class="bg-gradient-to-r from-gray-100 to-gray-300 p-6 rounded-lg shadow hover:shadow-lg transition">
+                <div class="text-green-600 text-2xl mb-2">
+                    <i class="fa-solid fa-briefcase"></i>
+                </div>
+                <h3 class="text-xl font-semibold">Experienced</h3>
+                <p class="text-gray-600 mt-2">Experienced in business development with blend of both soft and hard skills in programming </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Blogs Section -->
+<div class="bg-gray-900 text-white py-16 px-6" id="projects">
+    <div class="max-w-7xl mx-auto text-center">
+        <!-- Section Title -->
+        <h2 class="text-4xl font-bold text-teal-400 mb-4">Latest Project</h2>
+        <p class="text-gray-300 text-lg mb-6">
+            My Latest Project in my journey as a software engineer
+        </p>
+        
+        <!-- Subscribe Button -->
+        <button class="px-8 py-2 border-2 border-teal-400 text-teal-400 rounded-full font-semibold hover:bg-teal-400 hover:text-gray-900 transition">
+            see more
+        </button>
+    </div>
+    
+    <!-- Blog Cards -->
+    <div class="mt-12 max-w-5xl mx-auto space-y-8">
+        <!-- Blog Card 1 -->
+        <div class="flex flex-col sm:flex-row items-start bg-gray-800 p-6 rounded-lg shadow-lg">
+            <img src="images/siluman.png" alt="Blog Image" class="w-24 h-24 object-cover rounded-md mb-4 sm:mb-0 sm:mr-6">
+            <div class="flex-1">
+                <h3 class="text-2xl font-semibold text-teal-400 mb-2">SILUNI (Sistem Alumni Universitas Trunojoyo Madura)</h3>
+                <p class="text-gray-400 mb-4 text-sm sm:text-base">
+                    SILUNI is a web-based application developed to manage and organize alumni data from Universitas Trunojoyo Madura.
+                    The primary goal of SILUNI is to streamline the alumni database, making it easier for both the university administration and alumni network to stay connected and up-to-date.
+                    This platform provides various features to facilitate efficient data management, enhance communication, and support alumni engagement.
+                </p>
+                <a href="https://siluni.sakera.id/" class="text-teal-400 font-semibold" target="_blank">See Project &gt;&gt;</a>
+                <div class="flex flex-wrap items-center text-gray-500 text-xs sm:text-sm mt-2">
+                    <span class="px-2 py-1 bg-green-400 text-white rounded-full text-xs mr-2 mb-2">Web Development</span>
+                    <span>Laravel</span>
+                    <span class="mx-2">|</span>
+                    <span>Tailwind</span>
+                    <span class="mx-2">|</span>
+                    <span>Javascript</span>
+                    <span class="mx-2">|</span>
+                    <span>Created: September 2024</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Repeat Blog Card for additional blogs -->
+        <!-- Blog Card 2 -->
+        <div class="flex flex-col sm:flex-row items-start bg-gray-800 p-6 rounded-lg shadow-lg">
+            <img src="images/bmc.png" alt="Blog Image" class="w-24 h-24 object-cover rounded-md mb-4 sm:mb-0 sm:mr-6">
+            <div class="flex-1">
+                <h3 class="text-2xl font-semibold text-teal-400 mb-2">Online Booking Website for Waterpool</h3>
+                <p class="text-gray-400 mb-4 text-sm sm:text-base">
+                    An online booking website for waterpool reservations, allowing users to book, pay online, and receive a QR code for entry upon payment.
+                    A real-time schedule displays booking availability, helping users adjust their plans based on crowd levels.
+                </p>
+                <a href="https://github.com/ReEkaF/bmcwaterpool" class="text-teal-400 font-semibold" target="_blank">See Project &gt;&gt;</a>
+                <div class="flex flex-wrap items-center text-gray-500 text-xs sm:text-sm mt-2">
+                    <span class="px-2 py-1 bg-green-400 text-white rounded-full text-xs mr-2 mb-2">Web Development</span>
+                    <span>Laravel</span>
+                    <span class="mx-2">|</span>
+                    <span>Bootstrap</span>
+                    <span class="mx-2">|</span>
+                    <span>Javascript</span>
+                    <span class="mx-2">|</span>
+                    <span>Created: April 2024</span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<!-- Contact Section -->
+<div class="custom-gradient text-white py-16 px-6 rounded-lg shadow-lg" id="contact">
+    <!-- Your content here -->
+
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Contact Information -->
+        <div class="space-y-8">
+            <span class="inline-block bg-green-100 text-green-600 px-3 py-1 rounded-full text-sm font-semibold">
+                Contact
+            </span>
+            <h2 class="text-4xl font-bold text-white">
+                Let’s Discuss Your <span class="text-green-600">Project</span>
+            </h2>
+            <p class="text-gray-200">
+                Let’s make something new, different and more meaningful or make things more visual or conceptual.
+            </p>
+    
+            <!-- Contact Details -->
+            <div class="space-y-6">
+                <a href="https://wa.me/6289515896944" target="_blank" class="flex items-center space-x-4">
+                    <div class="bg-green-500 p-4 rounded-full text-white">
+                        <i class="fas fa-phone-alt text-2xl"></i>
+                    </div>
+                    <div>
+                        <p class="text-gray-700 font-semibold text-white">Call me</p>
+                        <p class="text-gray-400">+62 951-589-6944</p>
+                    </div>
+                </a>
+                <a href="https://mail.google.com/mail/u/0/?fs=1&to=andreeka852@gmail.com&tf=cm" target="_blank" class="flex items-center space-x-4">
+                    <div class="bg-green-500 p-4 rounded-full text-white">
+                        <i class="fas fa-envelope text-2xl"></i>
+                    </div>
+                    <div>
+                        <p class="text-gray-700 font-semibold text-white">Email me</p>
+                        <p class="text-gray-400">andreeka852@gmail.com</p>
+                    </div>
+                </a>
+                <div class="flex items-center space-x-4">
+                    <div class="bg-green-500 p-4 rounded-full text-white">
+                        <i class="fas fa-map-marker-alt text-2xl"></i>
+                    </div>
+                    <div>
+                        <p class="text-gray-700 font-semibold text-white">Address</p>
+                        <p class="text-gray-400">Tuban, Indonesia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Contact Form with Responsive Google Map -->
+        <div>
+            <div class="relative" style="padding-top: 56.25%;"> <!-- 16:9 Aspect Ratio -->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d989.8133296460652!2d112.1750784695174!3d-7.096609768725361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMDUnNDcuOCJTIDExMsKwMTAnMzIuNiJF!5e0!3m2!1sid!2sid!4v1730801407787!5m2!1sid!2sid"
+                    class="absolute top-0 left-0 w-full h-full"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 w-full text-white py-6">
+        <div class="max-w-5xl mx-auto px-4 text-center">
+            <h2 class="text-2xl font-bold mb-2">Andre Eka Ferdiansyah</h2>
+            <p class="text-gray-400">Web Developer | Machine Learning | Mobile Dev</p>
+            <p class="text-gray-500 mt-6">&copy; 2024 Andre Eka Ferdiansyah. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+</html>
